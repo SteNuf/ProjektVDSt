@@ -116,6 +116,7 @@ body {
   padding-bottom: 2rem;
   font-size: 2.5rem;
   letter-spacing: 0.1rem;
+  color: white;
   text-decoration: underline;
   text-decoration-color: var(--primary-color);
   width: fit-content;
@@ -131,7 +132,7 @@ body {
 
 .AboutUs_Picture {
   display: flex;
-  width: 90%;
+  width: 95%;
   height: 90%;
   object-fit: cover;
   gap: 0.1rem;
@@ -145,9 +146,73 @@ body {
 .AboutUs_SmallPicture {
   display: flex;
   flex-direction: column;
-
   width: 60%;
   height: 40%;
+}
+
+.Semesterprg {
+  margin-top: 5rem;
+}
+
+.prg-container {
+  background-image: linear-gradient(#0707079c, #080808ab), url(VDSt_Kerzen.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90rem;
+  margin: 3rem 0;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.aktuellePrg {
+  color: white;
+  padding-top: 2rem;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.monate {
+  list-style: none;
+}
+
+.Monat {
+  /*text-decoration: underline;
+  text-decoration-color: var(--primary-color);*/
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.Termine,
+.Veranstlg,
+.Uhrzeit {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.6rem;
+  color: #ddd;
+}
+
+.download,
+.pdf {
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  padding-top: 5rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  margin-top: 8rem;
+}
+
+.pdf:hover {
+  color: var(--primary-color);
 }
 
 .footer {
@@ -159,7 +224,6 @@ body {
   padding: 2rem 1rem;
   font-size: 0.8rem;
   text-align: center;
-
   text-transform: uppercase;
 }
 
