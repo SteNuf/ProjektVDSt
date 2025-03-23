@@ -54,12 +54,11 @@ body {
 .title {
   margin: 0 0 1rem 0;
   font-size: 4rem;
-  line-height: -5rem;
 }
 
 .subtitle {
   font-size: 1rem;
-  margin: 0;
+  margin: 1;
   color: var(--text-color);
 }
 
@@ -140,15 +139,15 @@ body {
 
 .Big-Picture {
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
-
+/*
 .AboutUs_SmallPicture {
   display: flex;
   flex-direction: column;
   width: 60%;
   height: 40%;
-}
+}*/
 
 .Semesterprg {
   margin-top: 5rem;
@@ -245,4 +244,236 @@ body {
 
 .footer-icon:hover {
   color: var(--primary-color);
+}
+
+@media screen and (min-width: 350px) {
+  .nav {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    margin-top: 4rem;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    margin-bottom: 8rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .hero-action {
+    margin-top: 10rem;
+  }
+
+  .button,
+  .button-inverted {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-color);
+  }
+
+  .AboutUsTop {
+    grid-template-columns: 1fr;
+    display: grid;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 3rem;
+    color: var(--text-color);
+    gap: 2rem;
+  }
+
+  .About_us_Header {
+    font-size: 1.5rem;
+  }
+
+  .About_us_TextContent {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .AboutUs_Picture {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Big-Picture {
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+  }
+
+  .aktuellePrg {
+    font-size: 1.5rem;
+  }
+
+  .Monat {
+    font-size: 1.2rem;
+  }
+  .Termine,
+  .Veranstlg,
+  .Uhrzeit {
+    font-size: 0.9rem;
+    letter-spacing: 0rem;
+  }
+
+  .download,
+  .pdf {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-top: 2.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin-top: 8rem;
+  }
+
+  .pdf:hover {
+    color: var(--primary-color);
+  }
+
+  .footer-icon {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .title {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 8rem;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 19rem;
+  }
+
+  .hero-action {
+    margin-top: 8rem;
+  }
+
+  .AboutUsTop {
+    grid-template-columns: 1fr;
+    display: grid;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 3rem;
+    color: var(--text-color);
+    gap: 2rem;
+  }
+
+  .About_us_Header {
+    font-size: 1.8rem;
+  }
+
+  .About_us_TextContent {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+  }
+
+  .aktuellePrg {
+    font-size: 1.7rem;
+  }
+
+  .Monat {
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .Termine,
+  .Veranstlg,
+  .Uhrzeit {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .title {
+    font-size: 3.8rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 32rem;
+  }
+
+  .hero-action {
+    margin-top: 1rem;
+  }
+
+  .button,
+  .button-inverted {
+    width: fit-content;
+    padding: 1rem 2rem;
+    border: 1px solid var(--primary-color);
+  }
+
+  .AboutUsTop {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 3rem;
+    color: var(--text-color);
+    gap: 2rem;
+  }
+
+  .About_us_Header {
+    font-size: 1.8rem;
+  }
+
+  .About_us_TextContent {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+  }
+
+  .AboutUs_Picture {
+    display: flex;
+    width: 90%;
+    height: 90%;
+  }
+
+  .Big-Picture {
+    width: 100%;
+    height: 100%;
+    padding-top: 3rem;
+  }
+
+  .aktuellePrg {
+    font-size: 2rem;
+  }
+
+  .Monat {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .Termine,
+  .Veranstlg,
+  .Uhrzeit {
+    font-size: 1.5rem;
+  }
+
+  .download,
+  .pdf {
+    font-size: 1rem;
+    padding-top: 2.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin-top: 8rem;
+  }
 }
