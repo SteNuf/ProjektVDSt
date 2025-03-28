@@ -52,7 +52,7 @@ body {
   text-align: center;
 }
 .title {
-  margin: 0 0 1rem 0;
+  margin: 0 0 0rem 0;
   font-size: 4rem;
 }
 
@@ -98,7 +98,6 @@ body {
   max-width: 85%;
   margin: 0 auto;
   align-items: center;
-  margin-top: 5rem;
   color: var(--text-color);
   gap: 2rem;
 }
@@ -127,6 +126,7 @@ body {
   padding-bottom: 3.5rem;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
 }
 
 .AboutUs_Picture {
@@ -150,7 +150,7 @@ body {
 }*/
 
 .Semesterprg {
-  margin-top: 5rem;
+  margin-top: 15rem;
 }
 
 .prg-container {
@@ -214,6 +214,30 @@ body {
   color: var(--primary-color);
 }
 
+.contakt-headline {
+  margin-top: 3rem;
+}
+
+.dienste {
+  display: flex;
+  flex-direction: column;
+}
+
+.anschrift {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  padding-bottom: 0.8rem;
+}
+
+.insta-pic {
+  width: 1%;
+}
+
+.facebook-pic {
+  width: 1%;
+  margin-bottom: 1.5rem;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -237,7 +261,7 @@ body {
 .footer-icon {
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
   padding: 0 1rem;
 }
@@ -246,25 +270,108 @@ body {
   color: var(--primary-color);
 }
 
-@media screen and (min-width: 350px) {
+@media screen and (max-width: 349px) {
   .nav {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     letter-spacing: 0.1rem;
   }
 
   .title {
-    font-size: 1.6rem;
-    margin-top: 4rem;
+    font-size: 1.5rem;
+    margin-top: -9rem;
   }
 
   .subtitle {
-    font-size: 0.8rem;
-    margin-bottom: 8rem;
+    font-size: 0.6rem;
+    margin-bottom: 1rem;
     letter-spacing: 0.1rem;
   }
 
   .hero-action {
-    margin-top: 10rem;
+    margin-top: 22rem;
+  }
+
+  .AboutUsTop {
+    grid-template-columns: 1fr;
+    display: grid;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 3rem;
+    color: var(--text-color);
+    gap: 2rem;
+  }
+
+  .AboutUs_Picture {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Big-Picture {
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+  }
+
+  .aktuellePrg {
+    font-size: 1.5rem;
+  }
+
+  .Monat {
+    font-size: 1rem;
+  }
+  .Termine,
+  .Veranstlg,
+  .Uhrzeit {
+    font-size: 0.6rem;
+  }
+
+  .download,
+  .pdf {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding-top: 2.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin-top: 8rem;
+  }
+
+  .contakt-headline {
+    font-size: 1.5rem;
+  }
+
+  .anschrift {
+    font-size: 0.8rem;
+    letter-spacing: 0rem;
+  }
+
+  .footer-icon {
+    font-size: 0.65rem;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .nav {
+    font-size: 0.8rem;
+    letter-spacing: 0.09rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+    margin-top: -1rem;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+    margin-bottom: 0.1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .hero-action {
+    margin-top: 25rem;
   }
 
   .button,
@@ -336,26 +443,30 @@ body {
     color: var(--primary-color);
   }
 
+  .vdst-people {
+    max-width: 185%;
+  }
+
   .footer-icon {
-    font-size: 1rem;
+    font-size: 0.65rem;
   }
 }
 
 @media screen and (min-width: 600px) {
   .title {
     font-size: 2.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     margin-bottom: 0.5rem;
-    margin-top: 8rem;
+    margin-top: 0rem;
   }
 
   .subtitle {
-    font-size: 1.3rem;
-    margin-bottom: 19rem;
+    font-size: 1rem;
+    margin-bottom: 0rem;
   }
 
   .hero-action {
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
 
   .AboutUsTop {
@@ -397,19 +508,19 @@ body {
 
 @media screen and (min-width: 1000px) {
   .title {
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     padding-bottom: 0.5rem;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    margin-top: -08rem;
   }
 
   .subtitle {
-    font-size: 1.8rem;
-    margin-bottom: 32rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
   }
 
   .hero-action {
-    margin-top: 1rem;
+    margin-top: 26rem;
   }
 
   .button,
@@ -475,5 +586,9 @@ body {
     color: white;
     padding: 1rem;
     margin-top: 8rem;
+  }
+
+  .footer-icon {
+    font-size: 1rem;
   }
 }
