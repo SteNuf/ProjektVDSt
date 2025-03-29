@@ -56,14 +56,47 @@ body {
   font-size: 4rem;
 }
 
+.impressum {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  color: var(--text-color);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  margin-top: -14rem;
+  padding-bottom: 1rem;
+}
+
 .subtitle {
   font-size: 1rem;
   margin: 1;
   color: var(--text-color);
 }
 
+.aktiven,
+.altHerren {
+  padding-top: 2rem;
+  color: var(--text-color);
+  letter-spacing: 0.1rem;
+}
+
+.aktiven_headline,
+.ah-headline {
+  font-size: 2rem;
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  padding-bottom: 1rem;
+}
+
+.text,
+.chargen,
+.Ahbund-chargen {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
 .hero-action {
   margin-top: 30rem;
+  color: var(--text-color);
 }
 .button,
 .button-inverted {
