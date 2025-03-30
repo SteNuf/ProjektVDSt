@@ -76,6 +76,11 @@ body {
   color: white;
 }
 
+.laufband-link:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
 .hero-action {
   margin-top: 30rem;
   color: var(--text-color);
