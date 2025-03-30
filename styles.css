@@ -65,6 +65,17 @@ body {
   color: var(--text-color);
 }
 
+.laufband {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.laufband-link {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+
 .hero-action {
   margin-top: 30rem;
   color: var(--text-color);
