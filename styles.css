@@ -114,8 +114,8 @@ body {
 /*----------------------------------------------Section About us --------------------------*/
 
 .about-us-top {
-  grid-template-columns: 1fr 1fr;
   display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
   max-width: 85%;
   margin: 0 auto;
@@ -134,7 +134,7 @@ body {
 
 .about-us-header {
   padding-bottom: 2rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
   color: var(--text-color-white);
   text-decoration: underline;
@@ -148,7 +148,7 @@ body {
   padding-bottom: 3.5rem;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .about-us-picture {
@@ -156,13 +156,14 @@ body {
   width: 95%;
   height: 90%;
   object-fit: cover;
-  gap: 0.1rem;
+  gap: 1rem;
 }
 
 .big-picture {
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
+
 /*
 .AboutUs_SmallPicture {
   display: flex;
@@ -173,7 +174,7 @@ body {
 /* ---------------------------------------Section Semesterprogramm-----------------------------*/
 
 .semesterprg {
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 
 .prg-container {
@@ -236,6 +237,71 @@ body {
 .pdf:hover {
   color: var(--primary-color);
 }
+/*-------------------------------Section Miete--------------------------------------------*/
+.rent-room {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  flex-direction: column;
+  max-width: 85%;
+  margin: 0 auto;
+  align-items: center;
+  color: var(--text-color);
+  margin: auto;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 15rem;
+}
+
+.rent-room-container {
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.rent-room-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 3.5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.slide-show,
+.inside-house {
+  display: flex;
+
+  width: 85%;
+  height: 90%;
+  object-fit: cover;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+
+.house {
+  width: 70vh;
+  height: 60vh;
+}
+
+.bar {
+  width: 83vh;
+  height: 60vh;
+}
+
+.kitchen {
+  width: 70vh;
+  height: 60vh;
+}
+
+.room {
+  width: 110vh;
+  height: 60vh;
+}
+
 /*-------------------------------------------Section Kontakt----------------------------*/
 
 .contact {
@@ -246,7 +312,7 @@ body {
   align-items: center;
   max-width: 85%;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 15rem;
   margin-bottom: 30rem;
   align-items: center;
 }
@@ -258,13 +324,13 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 110%;
+  max-width: 100%;
   margin: 0 auto;
   gap: 2rem;
 }
 
 .vdst-people {
-  width: 200%;
+  width: 100%;
   flex-direction: column;
 }
 
@@ -289,7 +355,7 @@ body {
 /*-----------------Section Impressum ---------------------------------------------*/
 
 .imp-top {
-  margin-top: 15rem;
+  margin-top: 10rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -668,7 +734,7 @@ body {
 }
 
 .contact-headline {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .address {
@@ -742,19 +808,17 @@ body {
 
   .about-us-text-content {
     font-size: 1.4rem;
-    padding-bottom: 1rem;
   }
 
   .about-us-picture {
     display: flex;
-    width: 90%;
-    height: 90%;
+    width: max-content;
+    height: max-content;
   }
 
   .big-picture {
-    width: 100%;
-    height: 100%;
-    padding-top: 3rem;
+    width: auto;
+    height: auto;
   }
 
   .aktuelle-prg {
@@ -784,6 +848,12 @@ body {
 
   .contact-headline {
     font-size: 1.8rem;
+  }
+
+  .vdst-people,
+  .big-picture {
+    max-width: auto;
+    height: 26rem;
   }
 
   .address {
