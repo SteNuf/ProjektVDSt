@@ -10,10 +10,11 @@ html {
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: rgba(0, 0, 0, 0.897);
-  color: white;
+  color: var(--text-color-white);
 
   --primary-color: #ff3030;
   --text-color: #ddd;
+  --text-color-white: white;
 }
 
 /*----------------------------------------------Section Nav----------------------------*/
@@ -30,7 +31,7 @@ body {
 
 .nav-item {
   text-decoration: none;
-  color: #fff;
+  color: var(--text-color-white);
   /*text-transform: uppercase;*/
   letter-spacing: 0.1rem;
   transition: all 0.2s ease-in-out;
@@ -73,7 +74,7 @@ body {
 .treadmill-link {
   text-decoration: none;
   transition: all 0.2s ease-in-out;
-  color: white;
+  color: var(--text-color-white);
 }
 
 .treadmill-link:hover {
@@ -90,7 +91,7 @@ body {
   width: fit-content;
   padding: 1rem 2rem;
   border: 1px solid var(--primary-color);
-  color: #fff;
+  color: var(--text-color-white);
   background-color: var(--primary-color);
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -108,7 +109,7 @@ body {
 
 .button-inverted:hover {
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--text-color-white);
 }
 /*----------------------------------------------Section About us --------------------------*/
 
@@ -135,7 +136,7 @@ body {
   padding-bottom: 2rem;
   font-size: 2.5rem;
   letter-spacing: 0.1rem;
-  color: white;
+  color: var(--text-color-white);
   text-decoration: underline;
   text-decoration-color: var(--primary-color);
   width: fit-content;
@@ -189,7 +190,7 @@ body {
 }
 
 .aktuelle-prg {
-  color: white;
+  color: var(--text-color-white);
   padding-top: 2rem;
   font-size: 3rem;
   letter-spacing: 0.1rem;
@@ -218,7 +219,7 @@ body {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   line-height: 1.6rem;
-  color: #ddd;
+  color: var(--text-color);
 }
 
 .download,
@@ -227,7 +228,7 @@ body {
   line-height: 1.4rem;
   padding-top: 5rem;
   text-decoration: none;
-  color: white;
+  color: var(--text-color-white);
   padding: 1rem;
   margin-top: 8rem;
 }
@@ -354,7 +355,7 @@ body {
 }
 
 .footer-icon {
-  color: white;
+  color: var(--text-color-white);
   text-decoration: none;
   letter-spacing: 0.1rem;
   padding: 0 1rem;
@@ -429,7 +430,7 @@ body {
   .appointments,
   .event,
   .time {
-    font-size: 0.6rem;
+    font-size: 0.85rem;
   }
 
   .download,
@@ -438,7 +439,7 @@ body {
     line-height: 1rem;
     padding-top: 2.5rem;
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     padding: 1rem;
     margin-top: 8rem;
   }
@@ -466,18 +467,18 @@ body {
   .aktiven_headline,
   .ah-headline {
     font-size: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
   }
 
   .text,
   .chargen,
   .Ahbund-chargen,
   .duty {
-    font-size: 0.7rem;
+    font-size: 0.7Srem;
   }
 
   .footer-icon {
-    font-size: 0.65rem;
+    font-size: 0.47rem;
   }
 }
 
@@ -562,7 +563,7 @@ body {
     line-height: 1rem;
     padding-top: 2.5rem;
     text-decoration: none;
-    color: white;
+    color: var(--text-color-white);
     padding: 1rem;
     margin-top: 8rem;
   }
@@ -608,7 +609,7 @@ body {
   }
 
   .footer-icon {
-    font-size: 0.65rem;
+    font-size: 0.55rem;
   }
 }
 
@@ -776,7 +777,7 @@ body {
     font-size: 1rem;
     padding-top: 2.5rem;
     text-decoration: none;
-    color: white;
+    color: var(--text-color-white);
     padding: 1rem;
     margin-top: 8rem;
   }
