@@ -282,7 +282,7 @@ body {
 .slide-show,
 .inside-house {
   display: flex;
-
+  grid-template-columns: 1fr 1fr;
   width: 85%;
   height: 90%;
   object-fit: cover;
@@ -292,7 +292,7 @@ body {
 }
 
 .house {
-  width: 70vh;
+  width: auto;
   height: 60vh;
 }
 
