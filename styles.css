@@ -260,6 +260,15 @@ body {
   margin: 0 auto;
 }
 
+.our-house-header {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  color: var(--text-color-white);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  width: fit-content;
+}
+
 .rent-room-content {
   display: flex;
   flex-direction: column;
@@ -483,7 +492,7 @@ body {
   }
 
   .about-us-text-content {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   .aktuelle-prg {
@@ -510,8 +519,50 @@ body {
     margin-top: 8rem;
   }
 
+  .slide-show {
+    display: fl;
+    flex-direction: column;
+  }
+
+  .house {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 20vh;
+  }
+
+  .bar {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 20vh;
+  }
+
+  .inside-house {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kitchen {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 20vh;
+  }
+
+  .room {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 20vh;
+  }
+
   .contact-headline {
     font-size: 1.2rem;
+  }
+
+  .vdst-people {
+    width: 29vh;
   }
 
   .address {
@@ -638,8 +689,46 @@ body {
     color: var(--primary-color);
   }
 
+  .slide-show {
+    display: fl;
+    flex-direction: column;
+  }
+
+  .house {
+    display: flex;
+    flex-direction: column;
+    width: 35vh;
+    height: auto;
+  }
+
+  .bar {
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    height: auto;
+  }
+
+  .inside-house {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kitchen {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 20vh;
+  }
+
+  .room {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 20vh;
+  }
+
   .vdst-people {
-    max-width: 185%;
+    max-width: 20vh;
   }
 
   .contact-headline {
