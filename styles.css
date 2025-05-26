@@ -689,22 +689,25 @@ body {
     color: var(--primary-color);
   }
 
+  .rent-room {
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .slide-show {
-    display: fl;
+    display: flex;
     flex-direction: column;
   }
 
   .house {
     display: flex;
-    flex-direction: column;
-    width: 35vh;
+    width: 40vh;
     height: auto;
   }
 
   .bar {
     display: flex;
-    flex-direction: column;
-    width: 30vh;
+    width: 40vh;
     height: auto;
   }
 
@@ -715,16 +718,15 @@ body {
 
   .kitchen {
     display: flex;
-    flex-direction: column;
-    width: auto;
-    height: 20vh;
+    width: 40vh;
+    height: 40vh;
   }
 
   .room {
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: 20vh;
+    width: 40vh;
+    height: auto;
   }
 
   .vdst-people {
