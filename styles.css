@@ -893,6 +893,7 @@ body {
   }
 
   .about-us-picture {
+    grid-template-columns: 1fr;
     display: flex;
     width: max-content;
     height: max-content;
@@ -932,7 +933,8 @@ body {
   }
 
   .vdst-people. {
-    width: 100vh;
+    width: max-content;
+    height: min-contents;
   }
 
   .address {
