@@ -175,7 +175,7 @@ body {
 /* ---------------------------------------Section Semesterprogramm-----------------------------*/
 
 .semesterprg {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .prg-container {
@@ -194,7 +194,7 @@ body {
 .aktuelle-prg {
   color: var(--text-color-white);
   padding-top: 2rem;
-  font-size: 3rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
   text-decoration: underline;
   text-decoration-color: var(--primary-color);
@@ -240,8 +240,7 @@ body {
 }
 /*-------------------------------Section Miete--------------------------------------------*/
 .rent-room {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 1rem;
 }
 
 .our-house-header {
