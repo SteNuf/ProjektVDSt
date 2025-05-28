@@ -145,8 +145,8 @@ body {
 .about-us-text-content {
   display: block;
   text-align: left;
-  padding-bottom: 3.5rem;
-  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
   margin-bottom: 0.5rem;
 }
@@ -465,16 +465,16 @@ body {
   }
 
   .aktuelle-prg {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .monat {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .appointments,
   .event,
   .time {
-    font-size: 0.87rem;
+    font-size: 0.7rem;
   }
 
   .download,
@@ -497,7 +497,7 @@ body {
   }
 
   .rent-room-content {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 
   .picture-frame-container {
@@ -516,7 +516,7 @@ body {
   }
 
   .contact-headline {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .address {
