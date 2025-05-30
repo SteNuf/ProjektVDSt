@@ -636,9 +636,6 @@ body {
     gap: 1rem;
   }
 
-  .rent-room-content {
-  }
-
   .picture-frame-container {
     display: flex;
     flex-direction: column;
