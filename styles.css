@@ -264,6 +264,7 @@ body {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   margin-bottom: 5rem;
+  text-decoration-line: var(--text-color);
 }
 
 .picture-frame-container {
@@ -347,7 +348,7 @@ body {
 }
 
 .impressum {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   letter-spacing: 0.1rem;
   color: var(--text-color);
   text-decoration: underline;
@@ -359,7 +360,6 @@ body {
 .altHerren {
   padding-top: 1.3rem;
   color: var(--text-color);
-  letter-spacing: 0.1rem;
 }
 
 .aktiven_headline,
@@ -573,7 +573,7 @@ body {
     align-items: center;
     margin-top: 3rem;
     color: var(--text-color);
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .about-us-header {
@@ -581,7 +581,7 @@ body {
   }
 
   .about-us-text-content {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
   }
 
@@ -607,8 +607,7 @@ body {
   .appointments,
   .event,
   .time {
-    font-size: 0.9rem;
-    letter-spacing: 0rem;
+    font-size: 0.8rem;
   }
 
   .download,
@@ -637,7 +636,6 @@ body {
   .rent-room-content {
     margin: 1rem 1rem 1rem 1rem;
     font-size: 1.5rem;
-    letter-spacing: normal;
   }
 
   .picture-frame-container {
@@ -656,19 +654,18 @@ body {
   }
 
   .impressum {
-    font-size: 1rem;
+    font-size: 1.55rem;
     padding-bottom: 1rem;
   }
 
   .aktiven,
   .altHerren {
     padding-top: 1.2rem;
-    letter-spacing: 0.1rem;
   }
 
   .aktiven_headline,
   .ah-headline {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
   }
 
@@ -714,11 +711,11 @@ body {
   }
 
   .about-us-header {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .about-us-text-content {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     padding-bottom: 1rem;
   }
 
@@ -734,7 +731,7 @@ body {
   .appointments,
   .event,
   .time {
-    font-size: 1.5rem;
+    font-size: 1.49rem;
   }
 }
 
