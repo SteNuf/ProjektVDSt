@@ -313,7 +313,7 @@ body {
 }
 
 .addresses .address {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--text-color);
   text-align: left;
   letter-spacing: 0.1rem;
@@ -497,7 +497,10 @@ body {
   }
 
   .rent-room-content {
-    font-size: 0.8rem;
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+
+    letter-spacing: normal;
   }
 
   .picture-frame-container {
@@ -508,20 +511,19 @@ body {
 
   .picture-rent {
     width: 100%;
-    height: 50%;
+    height: 100%;
   }
 
   .vdst-people {
-    width: 18vh;
+    width: 90%;
   }
 
   .contact-headline {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
-  .address {
-    font-size: 0.8rem;
-    letter-spacing: 0rem;
+  .addresses {
+    font-size: 1rem;
   }
 
   .impressum {
@@ -545,7 +547,7 @@ body {
   .chargen,
   .Ahbund-chargen,
   .duty {
-    font-size: 0.7Srem;
+    font-size: 0.7rem;
   }
 
   .footer-icon {
@@ -752,7 +754,6 @@ body {
 }
 
 .impressum {
-  font-size: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -860,8 +861,8 @@ body {
   }
 
   .vdst-people {
-    width: 200vh;
-    height: 200vh;
+    width: 100%;
+    height: 100%;
   }
 
   .address {
