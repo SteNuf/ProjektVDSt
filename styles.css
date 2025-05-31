@@ -672,6 +672,7 @@ body {
   .Ahbund-chargen,
   .duty {
     font-size: 1rem;
+    letter-spacing: normal;
   }
 
   .footer-icon {
