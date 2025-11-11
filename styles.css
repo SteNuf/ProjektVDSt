@@ -148,7 +148,7 @@ body {
   padding-bottom: 2rem;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .about-us-picture {
@@ -271,7 +271,6 @@ body {
 .picture-frame-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   gap: 1rem;
   justify-self: center;
   align-items: center;
@@ -335,7 +334,7 @@ body {
 /*-----------------Section Impressum ---------------------------------------------*/
 
 .imp-top {
-  margin-top: 10rem;
+  margin-top: 5rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
