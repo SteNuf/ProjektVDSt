@@ -49,7 +49,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(#07070762, #08080860), url("HeroVDSt.jpg");
+  background-image: linear-gradient(#07070762, #08080860),
+    url("pics/HeroVDSt.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -180,7 +181,7 @@ body {
 
 .prg-container {
   background-image: linear-gradient(#0707079c, #080808ab),
-    url("VDSt_Kerzen.jpg");
+    url("pics/VDSt_Kerzen.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -341,7 +342,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(#07070762, #08080860), url("HeroVDSt.jpg");
+  background-image: linear-gradient(#07070762, #08080860),
+    url("pics/HeroVDSt.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
