@@ -208,8 +208,6 @@ body {
 }
 
 .monat {
-  /*text-decoration: underline;
-  text-decoration-color: var(--primary-color);*/
   padding-top: 2.5rem;
   font-size: 2rem;
   letter-spacing: 0.1rem;
